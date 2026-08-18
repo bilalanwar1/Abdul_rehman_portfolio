@@ -54,6 +54,9 @@
       });
     }
     mobile?.querySelectorAll("a").forEach((a) => a.addEventListener("click", close));
+    window.addEventListener("resize", () => {
+      if (window.matchMedia("(min-width: 1100px)").matches) close();
+    });
 
     /* Scrollspy */
     const links = Array.from(navbar.querySelectorAll("[data-nav]")).filter((l) =>

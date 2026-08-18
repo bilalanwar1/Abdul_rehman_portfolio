@@ -66,6 +66,7 @@ html[data-theme="light"] .dashboard {
 
 .dashboard__period {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -179,6 +180,7 @@ html[data-theme="light"] .dashboard {
   font-size: 13px;
   color: var(--muted);
   font-weight: 500;
+  overflow-wrap: anywhere;
 }
 
 .dashboard__charts {
@@ -196,6 +198,8 @@ html[data-theme="light"] .dashboard {
   -webkit-backdrop-filter: blur(16px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s, box-shadow 0.3s;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .dash-chart:hover {
@@ -267,14 +271,19 @@ html[data-theme="light"] .dashboard {
   border-radius: 3px;
 }
 
-@media (min-width: 640px) {
-  .dashboard__kpis { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 639px) {
+  .dash-chart__canvas { height: 220px; }
+  .dash-chart__canvas--sm { height: 200px; }
 }
 
 @media (min-width: 768px) {
   .dashboard__charts { grid-template-columns: repeat(2, 1fr); }
   .dash-chart--wide { grid-column: 1 / -1; }
   .dash-chart__canvas--area { height: 300px; }
+}
+
+@media (min-width: 900px) {
+  .dashboard__kpis { grid-template-columns: repeat(4, 1fr); }
 }
 
 @media (min-width: 1024px) {

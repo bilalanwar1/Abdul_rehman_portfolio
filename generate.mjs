@@ -69,9 +69,7 @@ const navLinks = [
 
 const featuredSlugs = [
   "beeswax-wrap-kit-amazon-aplus",
-  "eyebrow-stamp-kit-amazon-aplus",
   "fidget-headphones-kids-listing",
-  "extremebaba-logo-vol-2",
 ];
 
 const counterStats = [
@@ -157,7 +155,6 @@ const clientNames = [
   "VASL",
   "Incubatee",
   "Beeswax Wrap Kit",
-  "Eyebrow Stamp Kit",
   "Pinon Calming Salve",
   "Fidget Headphones",
 ];
@@ -219,7 +216,7 @@ const services = [
   { icon: "photo_library", title: "Amazon Listing Images", description: "Main images, lifestyle frames, infographics, and comparison charts built for Amazon's catalog rules and for clicks that turn into add-to-carts." },
   { icon: "storefront", title: "FBA Wholesale & Sourcing", description: "Find profitable wholesale products, reach brands, and build the sourcing, inventory, and fulfillment flow that keeps Amazon accounts moving." },
   { icon: "verified", title: "Brand Approvals & Account Growth", description: "Support brand approvals, catalog health, and account growth so sellers can expand lines without getting stuck on gated brands or weak listings." },
-  { icon: "draw", title: "Logo & Brand Identity", description: "Logos, brand marks, and visual systems — including Extreme Baba and logo collections — that look sharp on Amazon, print, and the web." },
+  { icon: "draw", title: "Logo & Brand Identity", description: "Logos, brand marks, and visual systems that look sharp on Amazon, print, and the web." },
   { icon: "badge", title: "Business Cards & Print", description: "Business cards and print suites for incubators, agencies, and personal brands, designed to feel premium in the hand and on a desk." },
 ];
 
@@ -454,27 +451,6 @@ const projects = [
     ],
   },
   {
-    slug: "extremebaba-logo-vol-2",
-    title: "ExtremeBaba Logo Vol 2",
-    subtitle: "A bolder mark for an Amazon-era marketing brand",
-    tags: ["Branding", "Logo"],
-    src: "/images/extremebaba-logo.png",
-    website: "https://www.linkedin.com/company/extreme-baba",
-    client: "Extreme Baba",
-    industry: "Amazon Marketing Services",
-    duration: "Brand identity · Vol 2",
-    overview: "Extreme Baba needed a Vol 2 logo that feels as aggressive as Amazon wholesale — a mark that works on a site header, a business card, and a seller-facing pitch deck.",
-    challenge: "The first-generation mark was not strong enough at small sizes. Vol 2 had to be simpler, louder, and still ownable across digital and print.",
-    solution: "Redrawn lettermark and wordmark with a high-contrast gold/orange system, tested at favicon size and on dark presentation boards.",
-    results: [
-      { value: "Vol 2", label: "Identity System" },
-      { value: "Mark + Word", label: "Lockups" },
-      { value: "Dark/Light", label: "Colorways" },
-      { value: "34", label: "Behance Views" },
-    ],
-    deliverables: ["Primary lettermark", "Wordmark lockup", "Dark and light colorways", "Presentation board"],
-  },
-  {
     slug: "fidget-headphones-kids-listing",
     title: "Fidget Headphones For Kids — Listing Design",
     subtitle: "Playful listing images that sell the fidget feature in the first glance",
@@ -539,88 +515,6 @@ const projects = [
           { value: "A+", label: "Support" },
           { value: "Compare", label: "Module" },
           { value: "How-to", label: "Module" },
-          { value: "CVR", label: "Job" },
-        ],
-      },
-    ],
-  },
-  {
-    slug: "eyebrow-stamp-kit-amazon-aplus",
-    title: "Eyebrow Stamp Kit — Amazon A+ Content",
-    subtitle: "Beauty A+ that shows the stamp result before the shopper scrolls",
-    tags: ["A+ Content", "Amazon"],
-    src: "/images/eyebrow-stamp-kit.png",
-    client: "Beauty kit brand",
-    industry: "Beauty & Personal Care",
-    duration: "A+ content build",
-    overview: "An eyebrow stamp kit needed A+ content that teaches the result in seconds — before/after logic, kit contents, and a no-fuss three-step application for Amazon beauty shoppers.",
-    challenge: "Stamp kits fail when shoppers cannot picture the brow shape. Dense kits also look cheap if the A+ is cluttered.",
-    solution: "A rose-gold beauty system: kit explosion, stencil shapes, three-step how-to, and a comparison vs pencil/pomade — all in Amazon A+ crops.",
-    results: [
-      { value: "32", label: "Behance Views" },
-      { value: "3-step", label: "How-To Module" },
-      { value: "Kit", label: "Contents Grid" },
-      { value: "11%+", label: "Conversion Focus" },
-    ],
-    deliverables: ["A+ beauty modules", "Kit contents grid", "How-to steps", "Comparison vs traditional brow tools"],
-    sections: [
-      {
-        number: "01",
-        title: "Kit Hero",
-        description: "Opened with a marble beauty still of stamp, stencils, and powder so the kit feels complete and premium in the first A+ slot.",
-        highlights: ["Complete kit", "Premium still", "Rose-gold system"],
-        stats: [
-          { value: "Hero", label: "Still" },
-          { value: "Kit", label: "Contents Visible" },
-          { value: "Marble", label: "Beauty Set" },
-          { value: "A+", label: "Slot 1" },
-        ],
-      },
-      {
-        number: "02",
-        title: "What's in the Box",
-        description: "A contents grid so shoppers know they are not buying a single stamp — powder, stencils, and tools are itemized.",
-        highlights: ["Itemized kit", "No surprise SKUs", "Grid scan"],
-        stats: [
-          { value: "Grid", label: "Contents" },
-          { value: "Stencils", label: "Shape Options" },
-          { value: "Powder", label: "Included" },
-          { value: "Tools", label: "Included" },
-        ],
-      },
-      {
-        number: "03",
-        title: "Three-Step Application",
-        description: "Stamp, stencil, blend — a three-step module that lowers the skill barrier that stops first-time beauty buyers.",
-        highlights: ["Low skill barrier", "3 steps", "First-time buyers"],
-        stats: [
-          { value: "3", label: "Steps" },
-          { value: "Stamp", label: "Step 1" },
-          { value: "Stencil", label: "Step 2" },
-          { value: "Blend", label: "Step 3" },
-        ],
-      },
-      {
-        number: "04",
-        title: "Vs Pencil & Pomade",
-        description: "A comparison module against traditional brow tools: speed, symmetry, and beginner-friendliness as the win column.",
-        highlights: ["Speed", "Symmetry", "Beginner win"],
-        stats: [
-          { value: "Compare", label: "Module" },
-          { value: "Faster", label: "Vs Pencil" },
-          { value: "Even", label: "Vs Freehand" },
-          { value: "Kit", label: "Value Story" },
-        ],
-      },
-      {
-        number: "05",
-        title: "Finish & Shade Range",
-        description: "Closed with shade and finish callouts so shoppers can self-select without leaving the A+ block.",
-        highlights: ["Shade range", "Finish callouts", "Self-select"],
-        stats: [
-          { value: "Shades", label: "Range" },
-          { value: "Finish", label: "Look" },
-          { value: "Self", label: "Select" },
           { value: "CVR", label: "Job" },
         ],
       },
@@ -716,7 +610,7 @@ const testimonials = [
   { quote: "The A+ modules made the listing feel like a real brand — comparison charts and lifestyle frames that actually help shoppers decide.", name: "Amazon seller" },
   { quote: "Listing graphics lifted click-through and made the product page easier to scan. The before-and-after on the main images was obvious.", name: "Catalog owner" },
   { quote: "Operations plus design — sourcing, inventory, and creatives that keep the account moving. That combination is rare.", name: "Ecommerce partner" },
-  { quote: "The logo and print work felt considered, not template. ExtremeBaba Vol 2 finally looks like the brand we pitch to sellers.", name: "Brand collaborator" },
+  { quote: "The logo and print work felt considered, not template. It finally looks like the brand we pitch to sellers.", name: "Brand collaborator" },
 ];
 
 const whyWorkWithMe = [
@@ -736,7 +630,7 @@ function head(title, description) {
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>${title}</title>
   <meta name="description" content="${description}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1094,7 +988,6 @@ function connectBanner() {
 
 const sectionPageMaps = {
   "beeswax-wrap-kit-amazon-aplus": { "01": "01", "02": "02", "03": "03", "04": "04", "05": "05" },
-  "eyebrow-stamp-kit-amazon-aplus": { "01": "01", "02": "02", "03": "03", "04": "04", "05": "05" },
   "pinon-calming-salve-amazon-aplus": { "01": "01", "02": "02", "03": "03", "04": "04" },
   "fidget-headphones-kids-listing": { "01": "01", "02": "02", "03": "03", "04": "04" },
   "amazon-ebc-portfolio": { "01": "01", "02": "02", "03": "03", "04": "04", "05": "05" },
