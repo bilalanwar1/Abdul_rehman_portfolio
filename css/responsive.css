@@ -1,0 +1,43 @@
+@media (min-width: 640px) {
+  .hero__stats { grid-template-columns: repeat(3, 1fr); }
+  .stats-grid { grid-template-columns: repeat(3, 1fr); }
+  .why-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 768px) {
+  .navbar__nav { display: flex; }
+  .navbar__toggle { display: none; }
+  .hero__grid { grid-template-columns: 1fr 1fr; }
+  .about__grid { grid-template-columns: 0.9fr 1.1fr; }
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .portfolio-row { grid-template-columns: 1fr 1fr; gap: 56px; }
+  .portfolio-row__body { order: 0; }
+  .portfolio-row__img { order: 1; }
+  .portfolio-row--reverse .portfolio-row__body { order: 1; }
+  .portfolio-row--reverse .portfolio-row__img { order: 0; }
+  .contact__grid { grid-template-columns: 1fr 1.2fr; }
+  .footer__grid { grid-template-columns: 2fr 1fr 1fr; }
+  .footer__bottom { flex-direction: row; justify-content: space-between; }
+  .testimonial-slide { flex: 0 0 50%; min-width: 0; }
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+  .challenge-grid { grid-template-columns: 1fr 1fr; }
+  .results-grid { grid-template-columns: repeat(4, 1fr); }
+  .meta-grid { grid-template-columns: repeat(4, 1fr); }
+  .project-detail-hero { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 1024px) {
+  .services-grid { grid-template-columns: repeat(3, 1fr); }
+  .stats-grid { grid-template-columns: repeat(5, 1fr); }
+  .hero__stats { grid-template-columns: repeat(5, 1fr); }
+  .testimonial-slide { flex: 0 0 33.333%; min-width: 0; }
+}
+
+@media (max-width: 767px) {
+  .section { padding: 72px 0; }
+  .hero { min-height: auto; padding-bottom: 60px; }
+  .hero__float { display: none; }
+  .cta-box { padding: 40px 24px; }
+  .btn { width: 100%; }
+  .hero__cta .btn { width: auto; flex: 1; min-width: 140px; }
+}
